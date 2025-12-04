@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 const cookies = new Cookies();
 
 export const teensWorkshopAxiosAuthInstance = axios.create({
-  baseURL: "http://localhost:3333/api/v1/",
+  baseURL: "http://ec8gcco44wc0o88o088oo8og.157.173.100.221.sslip.io/",
   headers: {
     "Content-Type": "application/json",
   },
